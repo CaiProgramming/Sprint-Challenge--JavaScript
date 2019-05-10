@@ -29,14 +29,24 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+   map() returns a new array with the results that you provided
 
 2. What is the difference between a function and a method?
-
+   they are similar but a method is called within a class.
 3. What is closure?
-
+   a way to get private local variables in a function without making a global var
 4. Describe the four rules of the 'this' keyword.
+   if you use new you use this as it is a new object
+
+with apply call or bind you pass this to specifiy that this is the object you
+want to call
+
+in a method you call this to grab the local vars for this object.
+
+when a function is called in the global scope the this specifiys the window object
 
 5. Why do we need super() in an extended class?
+   to be able to pass parameters up to the parent class
 
 ## Project Set up
 
